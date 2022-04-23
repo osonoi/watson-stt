@@ -6,7 +6,7 @@ spec:
   tls:
     termination: edge
   to:
-    name: express-sample-app
+    name: watson-stt
     kind: Service
     weight: 100
   wildcardPolicy: None
