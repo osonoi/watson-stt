@@ -19,8 +19,8 @@ spec:
       dnsPolicy: ClusterFirst
       schedulerName: default-scheduler
       containers:
-      - name: express-sample-app
-        image: quay.io/upslopeio/watson-stt:d90c74353a92a0acd9fa4a925b4edf337a47ebb79c06
+      - name: watson-stt
+        image: quay.io/ymatsunami/watson-stt:d90c74353a92a0acd9fa4a925b4edf337a47ebb79c06
         ports:
         - name: http
           protocol: TCP
